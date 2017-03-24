@@ -1,0 +1,6 @@
+{
+  "name": "purescript-vector-spaces",
+  "dependencies": {
+    "purescript-prelude": "^2.5.0"
+  }
+}
