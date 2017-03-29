@@ -1,5 +1,5 @@
 {
-  "name": "purescript-vector-spaces",
+  "name": "purescript-modules",
   "dependencies": {
     "purescript-prelude": "^2.5.0"
   }
