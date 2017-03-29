@@ -1,5 +1,10 @@
 {
   "name": "purescript-modules",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TinkerTravel/purescript-modules.git"
+  },
   "dependencies": {
     "purescript-prelude": "^2.5.0"
   }
