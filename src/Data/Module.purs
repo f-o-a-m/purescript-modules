@@ -36,6 +36,12 @@ infixl 6 maddL as ^+
 infixl 6 msubL as ^-
 infixl 7 mmulL as ^*
 
+instance leftModuleUnit :: (Ring a) => LeftModule Unit a where
+  mzeroL = unit
+  maddL _ _ = unit
+  msubL _ _ = unit
+  mmulL _ _ = unit
+
 mnegateL :: ∀ x r. LeftModule x r => x -> x
 mnegateL = (mzeroL ^- _)
 
@@ -58,6 +64,12 @@ class (Ring r) <= RightModule x r | x -> r where
 infixl 6 maddR as +^
 infixl 6 msubR as -^
 infixl 7 mmulR as *^
+
+instance rightModuleUnit :: (Ring a) => RightModule Unit a where
+  mzeroR = unit
+  maddR _ _ = unit
+  msubR _ _ = unit
+  mmulR _ _ = unit
 
 mnegateR :: ∀ x r. RightModule x r => x -> x
 mnegateR = (mzeroR -^ _)
