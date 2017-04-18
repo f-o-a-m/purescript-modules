@@ -6,6 +6,6 @@
     "url": "https://github.com/TinkerTravel/purescript-modules.git"
   },
   "dependencies": {
-    "purescript-prelude": "^2.5.0"
+    "purescript-prelude": "^3.0.0"
   }
 }
