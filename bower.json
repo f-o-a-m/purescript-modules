@@ -1,11 +1,18 @@
 {
   "name": "purescript-modules",
+  "description": "Type classes for modules over rings",
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TinkerTravel/purescript-modules.git"
+    "url": "https://github.com/f-o-a-m/purescript-ring-modules.git"
   },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
   "dependencies": {
-    "purescript-prelude": "^3.0.0"
+    "purescript-prelude": "^4.0.0"
   }
 }
