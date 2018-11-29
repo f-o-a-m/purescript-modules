@@ -14,7 +14,8 @@ module Data.Module
   , mnegateR
   ) where
 
-import Prelude
+import Data.Ring (class Ring)
+import Data.Unit (Unit, unit)
 
 --------------------------------------------------------------------------------
 
