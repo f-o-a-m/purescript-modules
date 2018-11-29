@@ -1,5 +1,5 @@
 {
-  "name": "purescript-modules",
+  "name": "purescript-ring-modules",
   "description": "Type classes for modules over rings",
   "license": "BSD-3-Clause",
   "repository": {
