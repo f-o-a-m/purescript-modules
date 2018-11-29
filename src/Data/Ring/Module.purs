@@ -15,7 +15,6 @@ module Data.Module
   ) where
 
 import Data.Ring (class Ring)
-
 import Data.Unit (Unit, unit)
 
 --------------------------------------------------------------------------------
