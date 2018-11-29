@@ -1,4 +1,4 @@
-module Data.Module
+module Data.Ring.Module
   ( class LeftModule
   , mzeroL
   , maddL, (^+)
